@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/index.css">
+  <script src="./js/echarts.js"></script>
+  <script src="./js/echarts-gl.js"></script>
+  <script src="./js/jquery-3.4.1.min.js"></script>
+  <title>Document</title>
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <div class="side">
+      <div class="func">
+        PSO算法模拟程序
+        <div class="formA">
+          <form action="" class="form1" id="login">
+            <label for="popsize">w：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" name="w1" id="w1" placeholder="如：1">
+            <br>
+            <label for="popsize">种群数量：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" name="popsize" id="popsize" placeholder="如：20">
+            <br>
+            <label for="maxgen">迭代次数：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" name="maxgen" id="maxgen" placeholder="如：20">
+            <br>
+            <label for="c1">c1：&nbsp;&nbsp;</label>
+            <input  style ="width: 30%;" type="text" name="c1" id="c1" placeholder="如：1.459">
+
+            <label for="c2">c2：&nbsp;</label>
+            <input  style="width: 30%;" type="text" name="c2" id="c2" placeholder="如：1.459">
+            <br>
+            <label for="popxy">粒子位置范围：</label>
+            <input type="text" name="popxy" id="popxy" placeholder="如：3.5 表示x：[-3.5,3.5] y：[-3.5,3.5]">
+            <br>
+            <label for="popv">粒子速度范围：</label>
+            <input type="text" name="popv" id="popv" placeholder="如：0.5 表示Vx：[-0.5,0.5] Vy：[-0.5,0.5]">
+            <br>
+
+            <div class="btns">
+              <button type="submit" onclick="setValue(); return false;" class="mbutton">设定</button>
+              <button type="button" class="mbutton" onclick="PSO_all()" id="reset1">运行</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="result">
+        结果生成中····
+      </div>
+    </div>
+    <div id="main">
+
+    </div>
+
+    <div id="main2">
+
+    </div>
+  </div>
+</body>
+<script src="./js/pso.js"></script>
+<script src="./js/main.js"></script>
+<script src="./js/main2.js"></script>
+
+</html>

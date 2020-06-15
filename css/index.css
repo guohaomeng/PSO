@@ -1,0 +1,96 @@
+#main{
+  width: 800px;
+  height: 700px;
+  float: right;
+  border: 1px solid #cccccc;
+}
+#main2{
+  margin-top: 40px;
+}
+.side{
+  float: left;
+  width: 500px;
+  height: 741px;
+}
+.func{
+  height: 541px;
+  width: 500px;
+}
+#container{
+  width: 100%;
+  height: 100%;
+  float: left;
+
+}
+#main2{
+  width: 800px;
+  height: 700px;
+  float: right;
+  border: 1px solid #cccccc;
+}
+.result{
+  width: 500px;
+  height: 186.5px;
+  padding: 5px 15px;
+  font-size: 14px;
+  font-family: 'Consolas','微软雅黑';
+  overflow-wrap: break-word;
+  overflow-y: scroll;
+}
+.result::-webkit-scrollbar {display:none;}
+.form1{
+  padding-left: 24px;
+}
+.side label{
+  text-align: right;
+  width: 38px;
+}
+.side input{
+  width: 65%;
+  height: 38px;
+  border: 1px solid#e6e6e6;
+  background-color: #fff;
+  border-radius: 1px;
+  line-height: 1.3;
+  padding-left: 10px;
+  margin: 15px;
+}
+.side input:hover{
+  border-color: #b4bccc;
+  transition:0.2s;
+}
+.side input:focus{
+  border-color: #409EFF;
+  transition: 0.3s;
+}
+.btns{
+  width: 100%;
+  height: auto;
+  padding: 25px 10px;
+}
+.btns1{
+  width: 100%;
+  height: auto;
+  padding: 5px 0px;
+}
+.mbutton{
+  width: 35%;
+  height: 38px;
+  line-height: 38px;
+  padding: 0 18px;
+  margin: 0 18px;
+  color: #409eff;
+  background: #ecf5ff;
+  border-color: #b3d8ff;
+  white-space: nowrap;
+  font-size: 14px;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+}
+.mbutton:hover{
+  color: #fff;
+  background: #409EFF;
+  transition: 0.3s;
+}
+
