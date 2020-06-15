@@ -6,8 +6,8 @@ PSO算法可视化程序
 
 程序界面截图01.jpg
 
-![程序界面1](https://raw.githubusercontent.com/guohaomeng/PSO/master/img/01.jpg)
+![程序界面1](https://guohaomeng.github.io/PSO/img/01.jpg)
 
 程序界面截图02.jpg
 
-![程序界面2](https://raw.githubusercontent.com/guohaomeng/PSO/master/img/02.jpg)
+![程序界面2](https://guohaomeng.github.io/PSO/img/02.jpg)
